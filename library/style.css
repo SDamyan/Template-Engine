@@ -2,12 +2,43 @@
     font-family: "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"
 }
 
+body {
+    background-color: rgb(230, 218, 202);
+}
+
 .jumbotron {
     background-color: blue;
-    box-shadow: rgb(13, 13, 49);
+    box-shadow: 0 0 10px 2px;
 }
 
 .jumboTitle {
     text-align: center;
-    text-decoration: white;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 4px 5px rgb(62, 62, 65)
+}
+
+.card {
+    box-shadow: 0 0 10px 2px;
+}
+
+.card-body {
+    background-color: blue;
+    color: white;
+}
+
+.card-title {
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgb(62, 62, 65)
+}
+
+.nameManager, .nameEngineer, .nameIntern {
+    font-weight: bold;
+}
+
+li {
+    color: blue;
 }
