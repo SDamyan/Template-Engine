@@ -1,0 +1,13 @@
+* {
+    font-family: "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"
+}
+
+.jumbotron {
+    background-color: blue;
+    box-shadow: rgb(13, 13, 49);
+}
+
+.jumboTitle {
+    text-align: center;
+    text-decoration: white;
+}
