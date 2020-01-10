@@ -55,18 +55,7 @@ let questions = [
     ];
  
 function getmanagerHTML (answers) {
-    var managerhtml = `<div class="card">
-    <div class="card-body">
-        <h5 class="card-title nameManager">Name</h5>
-      <h5 class="card-title manager">
-        <i class="fas fa-tasks">  Manager</i></h5>
-      <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-      </ul> 
-    </div>
-  </div>`
+    var managerhtml = ``
     return html;
 }
 var manager = new Manager(WORK HERE NEXT!!!!); 
